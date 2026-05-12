@@ -1,0 +1,15 @@
+{
+  "name": "kolonitradgardsplaneraren",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Spatialt 2D-planeringsverktyg för köksträdgårdar — FAS 1 (dokumentation, spatial utilities, sandbox)",
+  "scripts": {
+    "test": "pnpm -r test",
+    "build": "pnpm -r build",
+    "dev:sandbox": "pnpm --filter geometry-sandbox dev"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=20"
+  }
+}
